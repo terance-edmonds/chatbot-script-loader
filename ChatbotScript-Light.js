@@ -1,5 +1,5 @@
-//const chatbotServerUrl = "https://52.220.134.60";
-const chatbotServerUrl = "http://localhost:4000";
+const chatbotServerUrl = "https://52.220.134.60";
+//const chatbotServerUrl = "http://localhost:4000";
 
 function checkConnection() {
     if(document.getElementById('chatbot__container-wrapper') != null){
