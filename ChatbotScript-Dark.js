@@ -508,7 +508,6 @@ async function createChatbot(){
 
          if(sessionStorage.getItem("sessionId") == null){
             handleStartSession()
-            console.log(sessionStorage.getItem("sessionId"))
         }
 }
 
