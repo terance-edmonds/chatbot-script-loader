@@ -1,6 +1,6 @@
 var chatbotServerUrl = "";
 
-if (location.hostname == "localhost" || location.hostname == "127.0.0.1"){
+if (location.protocol == "http:"){
     chatbotServerUrl = "http://52.220.134.60";
 }
 else{
